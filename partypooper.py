@@ -44,8 +44,8 @@ class PartyPooper:
         :return: RNG out of 2 parties
         """
         tmp_parties = [
-            ('מר"צ - השמאל של ישראל','מר"צ'),
-            ('חד"ש תע"ל בראשות איימן עודה ואחמד טיבי','ום')
+            ('TYPE_PARTY_NAME'),
+            ('TYPE_PARTY_NAME')
         ]
         return choice(tmp_parties)
 
